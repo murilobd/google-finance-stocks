@@ -29,6 +29,8 @@ Mapped attributes are:
  - ***symbol***: Symbol
  - ***exchange***: Exchange
  - ***name***: Company name
+ - ***price***: Last price in latest trading day
+ - ***variation***: Last variation in percentage in latest trading day
  - ***low***: Lowest price in lastest trading day
  - ***high***: Highest price in lastest trading day
  - ***low52***: Lowest price in last 52 weeks

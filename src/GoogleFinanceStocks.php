@@ -24,6 +24,14 @@ class GoogleFinanceStocks extends Base {
 		 */
 		'name' => 'name',
 		/**
+		 * Last price in latest trading day
+		 */
+		'price' => 'l',
+		/**
+		 * Last variation in percentage in latest trading day
+		 */
+		'variation' => 'cp',
+		/**
 		 * Lowest price in lastest trading day
 		 */
 		'low' => 'lo',
