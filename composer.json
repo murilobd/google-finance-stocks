@@ -1,0 +1,30 @@
+{
+    "name": "murilobd/google-finance-stocks",
+    "description": "This package will get from Google Finance all infos from a given stock (ex: BVMF:PETR4)",
+    "license": "MIT",
+    "keywords": ["google", "finance", "stocks", "bolsa de valor"],
+    "authors": [
+        {
+            "name": "Murilo Boareto Delefrate",
+            "email": "murilo@murilobd.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Murilobd\\GoogleFinanceStocks\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Murilobd\\GoogleFinanceStocks\\GoogleFinanceStocksServiceProvider"
+            ],
+            "aliases": {
+                "GoogleFinanceStocks": "Murilobd\\GoogleFinanceStocks\\Facade\\GoogleFinanceStocks"
+            }
+        }
+    }
+}
